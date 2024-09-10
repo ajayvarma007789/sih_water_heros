@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://csm361mvmof35"
-path="res://.godot/imported/PixelOperator8.ttf-6f9f01766aff16f52046b880ffb8d367.fontdata"
+uid="uid://ljgr4ii6pj8v"
+path="res://.godot/imported/Smasher 312.ttf-2176f949949a9f41067e7f271ebfb472.fontdata"
 
 [deps]
 
-source_file="res://assets/fonts/PixelOperator8.ttf"
-dest_files=["res://.godot/imported/PixelOperator8.ttf-6f9f01766aff16f52046b880ffb8d367.fontdata"]
+source_file="res://assets/smasher_312/Smasher 312.ttf"
+dest_files=["res://.godot/imported/Smasher 312.ttf-2176f949949a9f41067e7f271ebfb472.fontdata"]
 
 [params]
 

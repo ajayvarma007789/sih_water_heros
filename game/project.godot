@@ -11,5 +11,5 @@ config_version=5
 [application]
 
 config/name="game"
-run/main_scene="res://MAIN MENU.tscn"
+run/main_scene="res://sprite/world.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
