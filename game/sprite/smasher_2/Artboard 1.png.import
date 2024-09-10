@@ -2,18 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-
-uid="uid://rucxon1avgkw"
-
-path="res://.godot/imported/slime_purple.png-26dc5ddef235ce6a400e78e0d532b050.ctex"
+uid="uid://dlhsme6wot1kw"
+path="res://.godot/imported/Artboard 1.png-ceeac79559548cc8dfe9be674409c51d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/slime_purple.png"
-dest_files=["res://.godot/imported/slime_purple.png-26dc5ddef235ce6a400e78e0d532b050.ctex"]
+source_file="res://sprite/smasher_2/Artboard 1.png"
+dest_files=["res://.godot/imported/Artboard 1.png-ceeac79559548cc8dfe9be674409c51d.ctex"]
 
 [params]
 

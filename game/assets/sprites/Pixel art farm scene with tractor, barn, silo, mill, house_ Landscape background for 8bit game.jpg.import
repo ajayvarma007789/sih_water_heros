@@ -2,18 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-
-uid="uid://rucxon1avgkw"
-
-path="res://.godot/imported/slime_purple.png-26dc5ddef235ce6a400e78e0d532b050.ctex"
+uid="uid://icxcumqycf2t"
+path="res://.godot/imported/Pixel art farm scene with tractor, barn, silo, mill, house_ Landscape background for 8bit game.jpg-d81653b8a4f342f43f9dfb74f77a0cb1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/slime_purple.png"
-dest_files=["res://.godot/imported/slime_purple.png-26dc5ddef235ce6a400e78e0d532b050.ctex"]
+source_file="res://assets/sprites/Pixel art farm scene with tractor, barn, silo, mill, house_ Landscape background for 8bit game.jpg"
+dest_files=["res://.godot/imported/Pixel art farm scene with tractor, barn, silo, mill, house_ Landscape background for 8bit game.jpg-d81653b8a4f342f43f9dfb74f77a0cb1.ctex"]
 
 [params]
 
