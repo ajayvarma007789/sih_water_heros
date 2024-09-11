@@ -1,0 +1,49 @@
+[gd_scene load_steps=7 format=3 uid="uid://dn6vbfm8vnmd2"]
+
+[ext_resource type="Texture2D" uid="uid://b7n5xocnesn5f" path="res://assets/sprites/d5f7c963983f8d31ff7440aa3ffca868-removebg-preview 1.png" id="1_lika5"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_367ws"]
+atlas = ExtResource("1_lika5")
+region = Rect2(0, 324, 89, 108)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_feflr"]
+atlas = ExtResource("1_lika5")
+region = Rect2(89, 324, 89, 108)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8rxs8"]
+atlas = ExtResource("1_lika5")
+region = Rect2(178, 324, 89, 108)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i22at"]
+atlas = ExtResource("1_lika5")
+region = Rect2(267, 324, 89, 108)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_rx4jk"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_367ws")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_feflr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8rxs8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i22at")
+}],
+"loop": true,
+"name": &"idlev2",
+"speed": 5.0
+}]
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_rx4jk")
+animation = &"idlev2"
+autoplay = "idlev2"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-4, 4)

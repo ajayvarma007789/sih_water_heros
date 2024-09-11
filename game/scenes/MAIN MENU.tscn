@@ -1,0 +1,70 @@
+[gd_scene load_steps=7 format=3 uid="uid://dmm6f4dvd7kdn"]
+
+[ext_resource type="Texture2D" uid="uid://bdxk32tvtwxld" path="res://assets/download (1).jpg" id="1_btl7j"]
+[ext_resource type="Script" path="res://scripts/main_menu.gd" id="1_mydfx"]
+[ext_resource type="FontFile" uid="uid://4neo3t7grgf6" path="res://assets/smasher_2/Smasher.otf" id="2_xkpdp"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_3oaby"]
+texture = ExtResource("1_btl7j")
+modulate_color = Color(0.525101, 0.525101, 0.525101, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_yg3n8"]
+bg_color = Color(0.265398, 0.641518, 0.847962, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+shadow_size = 10
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_8j3fw"]
+
+[node name="MainMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_mydfx")
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_3oaby")
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -127.0
+offset_top = -48.0
+offset_right = 163.0
+offset_bottom = 55.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("2_xkpdp")
+theme_override_font_sizes/font_size = 33
+theme_override_styles/normal = SubResource("StyleBoxFlat_yg3n8")
+text = "START   GAME"
+
+[node name="Label" type="Label" parent="."]
+material = SubResource("ShaderMaterial_8j3fw")
+layout_mode = 0
+offset_left = 299.0
+offset_top = 104.0
+offset_right = 883.0
+offset_bottom = 202.0
+theme_override_colors/font_color = Color(0.467314, 0.997681, 0.952227, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 0.960784)
+theme_override_fonts/font = ExtResource("2_xkpdp")
+theme_override_font_sizes/font_size = 99
+text = "WATER HERO!!"
+horizontal_alignment = 1
+vertical_alignment = 1
